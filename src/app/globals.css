@@ -44,3 +44,30 @@
     transparent
   );
 }
+
+/* Custom Luxurious Scrollbar */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 8px; /* Thin and elegant */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light grey track to stay clean */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2c3e50; /* Our 'dental-dark' color */
+    border-radius: 20px; /* Fully rounded edges */
+    border: 2px solid #f1f1f1; /* Creates a 'floating' effect */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6; /* Subtle blue glow on hover */
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #2c3e50 #f1f1f1;
+  }
+}
