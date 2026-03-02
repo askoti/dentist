@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 AskDentist | Boutique Dental Platform
 
-## Getting Started
+### *A High-Conversion, Luxury Web Experience for Modern Practices*
 
-First, run the development server:
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=nextjs)](https://nextjs.org/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Nodemailer](https://img.shields.io/badge/Nodemailer-Server_Actions-blue?style=for-the-badge)](https://nodemailer.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💎 Premium Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Interactive Smile Gallery:** Custom-built **Before/After slider** (Yellow vs. White teeth) for instant visual results.
+* **Infinite Trust-Loop:** Seamless, auto-scrolling partner bar featuring industry leaders (Invisalign, ADA, CEREC).
+* **Luxury Typography:** High-end pairing of **Playfair Display** (Serif) and **Inter** (Sans) for a "Medical Spa" aesthetic.
+* **Dark-Mode Narrative:** Midnight Navy & Slate sections that prioritize clinical 3D renders.
+* **Zero-Refresh Booking:** Functional contact form powered by **Next.js Server Actions** and **Nodemailer**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technical Stack
 
-To learn more about Next.js, take a look at the following resources:
+* **Framework:** Next.js 15 (App Router)
+* **Styling:** Tailwind CSS v4 (PostCSS / CSS Variable Engine)
+* **Animation:** Standard CSS Keyframes for infinite loops and interactive clip-paths.
+* **Backend:** Node.js Server Actions for secure SMTP handling.
+* **Icons:** Lucide-React (Thin stroke for luxury feel).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Installation & Setup
 
-## Deploy on Vercel
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/your-username/askdentist.git](https://github.com/your-username/askdentist.git)
+    cd askdentist
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Environment Variables**
+    Create a `.env.local` file in the root directory:
+    ```env
+    EMAIL_USER=your-email@gmail.com
+    EMAIL_PASS=xxxx xxxx xxxx xxxx  # Google App Password
+    ```
+
+4.  **Launch Development Server**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 🎨 Design Philosophy
+
+The **AskDentist** UI is built on the principle of **"Clinical Luxury."** By using deep slate backgrounds and high-contrast typography, we shift the patient's perception from a "scary dental visit" to a "premium self-care experience."
+
+---
+
+## 📈 Conversion Strategy
+
+* **Dwell Time:** The interactive slider keeps users on the page 3x longer than static images.
+* **Social Proof:** The infinite scroll establishes authority without cluttering the viewport.
+* **Mobile Optimized:** 100% responsive design for patients booking on the go.
+
+---
+
+### 📬 Contact & Inquiries
+Looking to deploy this for your practice? Reach out to discuss a custom build.
+
+**[kastriotaliu.com/kastriootaliiu@gmail.com]**
