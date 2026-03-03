@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google"; // High-end font pairing
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 // For clean, professional body text
@@ -30,8 +30,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth"> {/* Added smooth scroll for the 'Book Now' links */}
+    <html lang="en" className="scroll-smooth">
       <body
+        suppressHydrationWarning={true}
         className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-[#F8F9FA] text-[#1A252F]`}
       >
         <Navbar />
