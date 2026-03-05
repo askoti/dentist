@@ -24,7 +24,7 @@ The project demonstrates advanced Next.js patterns including dynamic data fetchi
 ## ✨ Key Features
 
 ### 🎨 **Hero Section with Infinite Animation**
-- Seamlessly looping stripe pattern animation
+- Smoothly looping stripe pattern animation
 - Modern overlay design with call-to-action
 - Responsive typography and spacing
 - Built with CSS animations for optimal performance
