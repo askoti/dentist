@@ -21,34 +21,34 @@ The project demonstrates advanced Next.js patterns including dynamic data fetchi
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 **Hero Section with Infinite Animation**
-- Smoothly looping stripe pattern animation
+### Hero Section with Infinite Animation
+- Seamlessly looping stripe pattern animation
 - Modern overlay design with call-to-action
 - Responsive typography and spacing
 - Built with CSS animations for optimal performance
 
-### 🎠 **Interactive Image Carousel**
+### Interactive Image Carousel
 - Smooth transitions and slide navigation
 - Touch-friendly controls
 - Displays dental services and clinical excellence
 - Fully responsive across all devices
 
-### 📅 **Live Appointment Scheduling**
+### Live Appointment Scheduling
 - **Dynamic Google Sheets Integration**: Real-time sync with a linked Google Sheet
 - Changes propagate within minutes—no need for backend rebuilds
 - Displays dentist availability and confirmed appointments
 - Clean, professional calendar UI
 - Responsive table design with status indicators
 
-### 🎯 **Service Cards & Features Section**
+### Service Cards & Features Section
 - Grid layout showcasing dental services (General Dentistry, Invisalign, Dental Implants, Cosmetic Care)
 - Icon-driven design with descriptive copy
 - Before/after gallery for cosmetic procedures
 - Partner/credibility logos section
 
-### 📱 **Fully Responsive Design**
+### Fully Responsive Design
 - Desktop, tablet, and mobile optimized
 - Performance-first approach
 - Accessible navigation and form inputs
@@ -56,7 +56,7 @@ The project demonstrates advanced Next.js patterns including dynamic data fetchi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -68,7 +68,7 @@ The project demonstrates advanced Next.js patterns including dynamic data fetchi
 
 ---
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 dentist/
@@ -91,7 +91,7 @@ dentist/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
@@ -133,7 +133,7 @@ netlify deploy --prod
 
 ---
 
-## 🔌 Google Sheets Integration
+## Google Sheets Integration
 
 The appointments page syncs live data from a Google Sheet without backend complexity:
 
@@ -144,7 +144,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 📊 Performance & Optimization
+## Performance & Optimization
 
 - **Lazy Loading**: Images load on-demand for faster initial page load
 - **CSS Animations**: Hardware-accelerated stripe animations reduce jank
@@ -154,7 +154,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 🎨 Design Highlights
+## Design Highlights
 
 - **Color Palette**: Professional blues, grays, and accent colors
 - **Typography**: Modern sans-serif fonts with clear hierarchy
@@ -164,7 +164,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 🧪 What I Learned & Showcased
+## What I Learned & Showcased
 
 ✅ Next.js 15+ App Router (Server/Client Components)  
 ✅ TypeScript for type-safe React components  
@@ -178,7 +178,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Online payment integration (Stripe/Square)
 - [ ] Email notifications for appointment confirmations
@@ -191,7 +191,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Feature | Description |
 |---------|-------------|
@@ -203,7 +203,7 @@ The appointments page syncs live data from a Google Sheet without backend comple
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but if you have suggestions or improvements:
 
@@ -215,21 +215,21 @@ This is a portfolio project, but if you have suggestions or improvements:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ---
 
-## 📞 Connect With Me
+## Connect With Me
 
 - **GitHub**: [@askoti](https://github.com/askoti)
-- **Portfolio**: [View my other projects](kastriotaliu.com)
+- **Portfolio**: [View my other projects](https://github.com/askoti?tab=repositories)
 - **Live Demo**: [askdentist.netlify.app](https://askdentist.netlify.app)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Next.js Team** for the incredible framework
 - **Tailwind CSS** for utility-first styling excellence
@@ -241,7 +241,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 <div align="center">
 
 **Made with ❤️ by [@askoti](https://github.com/askoti)**
-
-Give this project a ⭐ if you found it helpful!
 
 </div>
